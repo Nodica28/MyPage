@@ -1,0 +1,14 @@
+{
+  "ignoreMatches": [
+    "@types/*",
+    "esbuild",
+    "tsx",
+    "autoprefixer",
+    "postcss",
+    "tailwindcss"
+  ],
+  "ignorePatterns": ["dist", "build", "node_modules", "public"],
+  "skipMissing": false,
+  "ignoreBinPackage": false,
+  "ignoreDirectories": ["node_modules", "dist", "build"]
+}

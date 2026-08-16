@@ -1,0 +1,14 @@
+{
+  "watch": ["server"],
+  "ext": "ts,js,json",
+  "ignore": ["server/**/*.spec.ts", "server/**/*.test.ts", "node_modules"],
+  "exec": "tsx server/index.ts",
+  "events": {
+    "restart": "echo \"[nodemon] Server restarted due to changes\""
+  },
+  "delay": "500",
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": "5000"
+  }
+}
